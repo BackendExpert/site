@@ -14,8 +14,8 @@ const products = [
         icon: SiCss3,
         accent: "from-indigo-500 to-sky-500",
         description:
-            "A utility-first CSS framework focused on clarity, structure, and predictable UI composition.",
-        href: "/products/jkcss",
+            "Sri Lanka & South Asia’s first production-ready utility-first CSS framework, built for clarity, predictable layouts, and long-term maintainability.",
+        href: "/jkcss",
         comingSoon: false,
     },
     {

@@ -6,10 +6,10 @@ import jkcssImage from "../../assets/JKCSS.png"
 
 const Hero = ({
     productName = "JKCSS",
-    tagline = "Sri Lanka & South Asia’s first production-ready utility-first CSS framework",
-    description = "JKCSS is a modern, production-ready CSS framework developed in Sri Lanka by BlackAlphaLabs. Built for speed, predictable layouts, clean semantics, and long-term maintainability, it empowers South Asian developers with a world-class styling system designed for real-world applications.",
-    docsLink = "/jkcss",
-    githubLink = "https://github.com/JKCSS-CSS-Framework"
+    tagline = "Utility-first CSS framework built for speed and clarity",
+    description = "A modern, internally developed CSS framework by BlackAlphaLabs, designed for predictable layouts, clean semantics, and long-term maintainability.",
+    docsLink = "/jkcss/docs",
+    githubLink = "https://github.com/BlackAlphaLabs/jkcss",
 }) => {
     return (
         <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white px-6 md:px-12 py-28">

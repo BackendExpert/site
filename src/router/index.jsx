@@ -5,6 +5,7 @@ import ErrorPage from '../component/ErrorPage/ErrorPage'
 import About from '../pages/About/About'
 import Contact from '../pages/Contact/Contact'
 import Projects from '../pages/Projects/Projects'
+import JKCSS from '../pages/Products/JKCSS'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                     <Route path='/aboutus' element={<About /> } />
                     <Route path='/contactus' element={<Contact /> } />
                     <Route path='/projects' element={<Projects /> } />
+                    <Route path='jkcss' element={<JKCSS /> } />
                 </Route>
             </Routes>
         </BrowserRouter>
