@@ -6,6 +6,7 @@ import {
     SiReact,
 } from "react-icons/si";
 import { HiOutlineLockClosed } from "react-icons/hi";
+import { FiLayers, FiGrid } from "react-icons/fi";
 
 const products = [
     {
@@ -25,6 +26,26 @@ const products = [
         accent: "from-emerald-500 to-lime-500",
         description: "A high-performance document database developed in Sri Lanka.",
         href: "/coconutdb",
+        comingSoon: false,
+    },
+    {
+        id: "react-jkcss",
+        name: "ReactJKCSS",
+        icon: FiLayers,
+        accent: "from-sky-500 to-cyan-500",
+        description:
+            "Component bindings and integration patterns for using JKCSS in React-based applications.",
+        href: "/react-jkcss",
+        comingSoon: false,
+    },
+    {
+        id: "jkreact-icons",
+        name: "JKReact Icons",
+        icon: FiGrid,
+        accent: "from-violet-500 to-purple-500",
+        description:
+            "A lightweight, consistent icon set optimized for modern React user interfaces.",
+        href: "#",
         comingSoon: false,
     },
     {

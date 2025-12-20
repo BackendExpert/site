@@ -7,6 +7,7 @@ import Contact from '../pages/Contact/Contact'
 import Projects from '../pages/Projects/Projects'
 import JKCSS from '../pages/Products/JKCSS/JKCSS'
 import Coconutdb from '../pages/Products/CoconutDB/Coconutdb'
+import ReactJKCSS from '../pages/Products/ReactJKCSS/ReactJKCSS'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/projects' element={<Projects /> } />
                     <Route path='jkcss' element={<JKCSS /> } />
                     <Route path='coconutdb' element={<Coconutdb /> } />
+                    <Route path='react-jkcss' element={<ReactJKCSS /> } />
                 </Route>
             </Routes>
         </BrowserRouter>
