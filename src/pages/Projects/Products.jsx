@@ -45,7 +45,7 @@ const products = [
         accent: "from-violet-500 to-purple-500",
         description:
             "A lightweight, consistent icon set optimized for modern React user interfaces.",
-        href: "#",
+        href: "/jkreact-icons",
         comingSoon: false,
     },
     {

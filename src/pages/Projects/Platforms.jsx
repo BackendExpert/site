@@ -11,7 +11,7 @@ const platforms = [
             "This platform helps you quickly access tech information, resources, and guides in one place.",
         icon: HiOutlineAcademicCap,
         accent: "from-indigo-500 to-sky-500",
-        href: "/platforms/learning-hub",
+        href: "/learning-hub",
         comingSoon: false,
     },
     {

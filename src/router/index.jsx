@@ -8,6 +8,8 @@ import Projects from '../pages/Projects/Projects'
 import JKCSS from '../pages/Products/JKCSS/JKCSS'
 import Coconutdb from '../pages/Products/CoconutDB/Coconutdb'
 import ReactJKCSS from '../pages/Products/ReactJKCSS/ReactJKCSS'
+import JKReactIcon from '../pages/Products/JKReactIcons/JKReactIcon'
+import Learning from '../pages/Platforms/LearningHub/Learning'
 
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
                     <Route path='jkcss' element={<JKCSS /> } />
                     <Route path='coconutdb' element={<Coconutdb /> } />
                     <Route path='react-jkcss' element={<ReactJKCSS /> } />
+                    <Route path='jkreact-icons' element={<JKReactIcon /> } />
+
+                    <Route path='learning-hub' element={<Learning /> } />
+                    
                 </Route>
             </Routes>
         </BrowserRouter>
