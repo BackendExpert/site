@@ -23,9 +23,8 @@ const products = [
         name: "CoconutDB",
         icon: SiMongodb,
         accent: "from-emerald-500 to-lime-500",
-        description:
-            "A schema-driven database engine designed for performance and internal platform tooling.",
-        href: "/products/coconutdb",
+        description: "A high-performance document database developed in Sri Lanka.",
+        href: "/coconutdb",
         comingSoon: false,
     },
     {

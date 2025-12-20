@@ -1,22 +1,21 @@
 import React from "react";
-import { ArrowRight, Github } from "lucide-react";
-import { SiCss3 } from "react-icons/si";
-import sitelogo from "../../assets/SiteLogo.png";
-import jkcssImage from "../../assets/JKCSS.png"
+import { ArrowRight, Github, Database } from "lucide-react";
+import sitelogo from "../../../assets/SiteLogo.png";
+import coconutimg from "../../../assets/Coconutdb.png";
 
 const Hero = ({
-    productName = "JKCSS",
-    tagline = "Utility-first CSS framework built for speed and clarity",
-    description = "A modern, internally developed CSS framework by BlackAlphaLabs, designed for predictable layouts, clean semantics, and long-term maintainability.",
-    docsLink = "/jkcss/docs",
-    githubLink = "https://github.com/BlackAlphaLabs/jkcss",
+    productName = "CoconutDB",
+    tagline = "Document-oriented NoSQL database built for modern applications",
+    description = "CoconutDB is a high-performance, document-oriented NoSQL database developed in Sri Lanka — the first of its kind in South Asia. Designed for scalability, flexibility, and developer-friendly data modeling.",
+    docsLink = "",
+    githubLink = "https://github.com/CoconutDB",
 }) => {
     return (
         <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white px-6 md:px-12 py-28">
 
             {/* Ambient background */}
-            <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-indigo-200/40 blur-3xl" />
-            <div className="absolute -bottom-40 -left-40 w-[520px] h-[520px] rounded-full bg-sky-200/40 blur-3xl" />
+            <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-emerald-200/40 blur-3xl" />
+            <div className="absolute -bottom-40 -left-40 w-[520px] h-[520px] rounded-full bg-teal-200/40 blur-3xl" />
 
             <div className="relative max-w-7xl mx-auto grid gap-14 lg:grid-cols-2 items-center">
 
@@ -31,14 +30,14 @@ const Hero = ({
                             className="w-11 h-11 object-contain"
                         />
                         <span className="text-sm font-semibold text-gray-500 tracking-wide">
-                            BlackAlphaLabs · Product
+                            BlackAlphaLabs · Database Systems
                         </span>
                     </div>
 
                     {/* Icon + Name */}
                     <div className="flex items-center gap-4">
-                        <div className="rounded-2xl bg-gradient-to-br from-indigo-500 to-sky-500 p-4 text-white shadow-lg">
-                            <SiCss3 size={28} />
+                        <div className="rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 p-4 text-white shadow-lg">
+                            <Database size={28} />
                         </div>
 
                         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900">
@@ -64,7 +63,7 @@ const Hero = ({
                             bg-gray-900 text-white font-semibold
                             hover:bg-gray-800 transition"
                         >
-                            Get Started <ArrowRight size={18} />
+                            Read Docs <ArrowRight size={18} />
                         </a>
 
                         <a
@@ -82,7 +81,7 @@ const Hero = ({
 
                     {/* Meta */}
                     <div className="pt-4 text-sm text-gray-500">
-                        Internally developed · No client services · Long-term maintained
+                        Developed in Sri Lanka · South Asia’s first document DB · Open source
                     </div>
                 </div>
 
@@ -90,8 +89,8 @@ const Hero = ({
                 <div className="relative flex justify-center lg:justify-end">
                     <div className="relative rounded-3xl border border-gray-200 bg-white shadow-xl p-4">
                         <img
-                            src={jkcssImage}
-                            alt="JKCSS Preview"
+                            src={coconutimg}
+                            alt="CoconutDB Preview"
                             className="rounded-2xl max-w-full h-auto"
                         />
                     </div>
