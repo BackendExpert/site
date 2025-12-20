@@ -11,6 +11,8 @@ import ReactJKCSS from '../pages/Products/ReactJKCSS/ReactJKCSS'
 import JKReactIcon from '../pages/Products/JKReactIcons/JKReactIcon'
 import Learning from '../pages/Platforms/LearningHub/Learning'
 
+import JKCss from '../pages/Npms/JKCss'
+
 
 function App() {
     return (
@@ -28,6 +30,7 @@ function App() {
                     <Route path='jkreact-icons' element={<JKReactIcon /> } />
 
                     <Route path='learning-hub' element={<Learning /> } />
+                    <Route path='npms/jkcss' element={<JKCss /> } />
                     
                 </Route>
             </Routes>

@@ -6,7 +6,7 @@ const actionsData = [
         title: "Download Android APK",
         desc: "Get the latest APK and run Learning Hub directly on your Android device.",
         icon: <Smartphone size={28} className="text-green-500" />,
-        href: "#",
+        href: "/LearningHub.apk",
         comingSoon: false,
     },
     {
