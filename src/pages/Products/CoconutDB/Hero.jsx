@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight, Github, Database } from "lucide-react";
 import sitelogo from "../../../assets/SiteLogo.png";
-import coconutimg from "../../../assets/Coconutdb.png";
+import coconutimg from "../../../assets/CoconutDB.png";
 
 const Hero = ({
     productName = "CoconutDB",
