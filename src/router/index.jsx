@@ -16,6 +16,8 @@ import CoconutDB from '../pages/Npms/Coconutdb'
 import ReactJKCSSNPM from '../pages/Npms/ReactJKCSSNPM'
 import MySqlEasy from '../pages/Npms/MySqlEasy'
 import SourceMERN from '../pages/Npms/SourceMERN'
+import FoodAPI from '../pages/APIs/FoodAPI/FoodAPI'
+import LearningAPI from '../pages/APIs/LearningHub/LearningAPI'
 
 
 function App() {
@@ -39,6 +41,9 @@ function App() {
                     <Route path='npms/reactjkcss' element={<ReactJKCSSNPM /> } />
                     <Route path='npms/mysqleasy' element={<MySqlEasy /> } />
                     <Route path='npms/source-mern' element={<SourceMERN /> } />
+
+                    <Route path='api/foodapi' element={<FoodAPI /> } />
+                    <Route path='api/learningapi' element={<LearningAPI /> } />
 
                 </Route>
             </Routes>

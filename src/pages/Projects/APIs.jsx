@@ -1,36 +1,37 @@
 import React from "react";
-import { HiOutlineServer, HiOutlineLockClosed } from "react-icons/hi";
-import { FaCloud, FaDatabase } from "react-icons/fa";
+import { HiOutlineLockClosed } from "react-icons/hi";
 
+import { FaCloud, FaDatabase } from "react-icons/fa";
+import { Database, Globe } from "lucide-react";
 const apis = [
     {
-        id: "alpha-api",
-        name: "Alpha API",
+        id: "jkrecipeapi",
+        name: "JKRecipeAPI",
         subtitle: "by BlackAlphaLabs",
-        description: "Core API powering internal developer tools and ecosystem integration.",
-        icon: HiOutlineServer,
-        accent: "from-indigo-500 to-sky-500",
-        href: "/apis/alpha-api",
+        description: "Public REST API for fetching structured food recipes including ingredients, instructions, and nutrition info.",
+        icon: Database,
+        accent: "from-orange-400 to-orange-600",
+        href: "/api/foodapi",
         comingSoon: false,
     },
     {
-        id: "cloud-api",
-        name: "Cloud API",
+        id: "learninghub-api",
+        name: "LearningHUB API",
         subtitle: "by BlackAlphaLabs",
-        description: "API for unified cloud services and future BlackAlphaLabs infrastructure.",
-        icon: FaCloud,
-        accent: "from-fuchsia-500 to-pink-500",
-        href: "#",
-        comingSoon: true,
+        description: "Modern high-performance API for educational applications, delivering course, content, and user resources.",
+        icon: Globe,
+        accent: "from-blue-400 to-blue-600",
+        href: "/api/learningapi",
+        comingSoon: false,
     },
     {
-        id: "db-api",
-        name: "Database API",
+        id: "learninghub-api",
+        name: "LearningHUB API",
         subtitle: "by BlackAlphaLabs",
-        description: "API for internal database interactions and CoconutDB connectivity.",
-        icon: FaDatabase,
-        accent: "from-emerald-500 to-lime-500",
-        href: "#",
+        description: "Modern high-performance API for educational applications, delivering course, content, and user resources.",
+        icon: Globe,
+        accent: "from-blue-400 to-blue-600",
+        href: "/api/learningapi",
         comingSoon: true,
     },
 ];
