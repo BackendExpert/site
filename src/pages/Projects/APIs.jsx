@@ -25,7 +25,7 @@ const apis = [
         comingSoon: false,
     },
     {
-        id: "learninghub-api",
+        id: "learninghub-api-1",
         name: "LearningHUB API",
         subtitle: "by BlackAlphaLabs",
         description: "Modern high-performance API for educational applications, delivering course, content, and user resources.",

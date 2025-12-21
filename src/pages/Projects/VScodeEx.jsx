@@ -1,41 +1,35 @@
 import React from "react";
-import {
-    SiJavascript,
-    SiTypescript,
-    SiReact,
-} from "react-icons/si";
 import { HiOutlineLockClosed, HiCode } from "react-icons/hi";
+import { SiHtml5, SiJavascript } from "react-icons/si";
+
 
 const extensions = [
     {
         id: "jkcss-vscode",
         name: "JKCSS VS Code",
-        icon: HiCode, // valid icon
+        icon: HiCode,
         accent: "from-indigo-500 to-sky-500",
-        description:
-            "VS Code extension for JKCSS including syntax highlighting, snippets, and live preview.",
-        href: "/vscode/jkcss-vscode",
+        description: "The JKCSS VS Code extension provides developers with full support for JKCSS, including syntax highlighting, intelligent code completion, ready-to-use snippets, and live preview capabilities. It accelerates front-end development by making utility-first CSS building faster and more efficient within VS Code.",
+        href: "https://marketplace.visualstudio.com/items?itemName=JehanKandy.jkcss",
         comingSoon: false,
     },
     {
-        id: "coconutdb-vscode",
-        name: "CoconutDB VS Code",
-        icon: SiTypescript,
-        accent: "from-emerald-500 to-lime-500",
-        description:
-            "Extension to manage CoconutDB queries, schemas, and database interactions directly in VS Code.",
-        href: "#",
-        comingSoon: true,
+        id: "html-table-creator",
+        name: "HTML Table Creator",
+        icon: SiHtml5,
+        accent: "from-orange-500 to-amber-500",
+        description: "HTML Table Creator is a VS Code extension that helps developers create dynamic and responsive HTML tables effortlessly. Designed for MVC NodeJS projects, it generates tables with customizable columns, styling, and data placeholders, reducing manual HTML coding and improving workflow efficiency.",
+        href: "https://marketplace.visualstudio.com/items?itemName=JehanKandy.html-table-creator",
+        comingSoon: false,
     },
     {
-        id: "coconutservejs-vscode",
-        name: "CoconutServeJS VS Code",
+        id: "mvc-nodejs-extension",
+        name: "MVC NodeJS",
         icon: SiJavascript,
-        accent: "from-amber-500 to-orange-500",
-        description:
-            "Helper extension for CoconutServeJS to scaffold endpoints, routes, and project structure.",
-        href: "#",
-        comingSoon: true,
+        accent: "from-green-500 to-lime-500",
+        description: "The MVC NodeJS extension for VS Code is a powerful tool for Node.js developers building projects using the MVC architecture. It scaffolds controllers, routes, models, and views, allowing developers to focus on core logic instead of boilerplate code, and integrates seamlessly with other tools like JKCSS and HTML Table Creator.",
+        href: "https://marketplace.visualstudio.com/items?itemName=JehanKandy.mern-development",
+        comingSoon: false,
     },
 ];
 
@@ -107,6 +101,7 @@ const VScodeEx = () => {
                                     {!ext.comingSoon && (
                                         <a
                                             href={ext.href}
+                                            target="_blank"
                                             className="mt-6 inline-flex items-center gap-2 text-sm font-semibold
                                             text-indigo-600 hover:text-indigo-400 transition"
                                         >

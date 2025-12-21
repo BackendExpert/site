@@ -59,7 +59,7 @@ const npms = [
         comingSoon: false,
     },
     {
-        id: "source-mern",
+        id: "source-mern-3",
         name: "Secure-MERN",
         icon: SiNpm,
         accent: "from-rose-500 to-red-600",
@@ -69,7 +69,7 @@ const npms = [
         comingSoon: true,
     },
     {
-        id: "source-mern",
+        id: "source-mern-2",
         name: "Secure-MERN",
         icon: SiNpm,
         accent: "from-rose-500 to-red-600",
@@ -79,7 +79,7 @@ const npms = [
         comingSoon: true,
     },
     {
-        id: "source-mern",
+        id: "source-mern-1",
         name: "Secure-MERN",
         icon: SiNpm,
         accent: "from-rose-500 to-red-600",
