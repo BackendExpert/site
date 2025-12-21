@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight, Github } from "lucide-react";
 import sitelogo from "../../../assets/SiteLogo.png";
-import jkreactIconsImage from "../../../assets/JKReactIcons.png"; // replace with actual image
+import jkreactIconsImage from "../../../assets/JKReactICons.png";
 
 const Hero = ({
     productName = "JKReact Icons",
