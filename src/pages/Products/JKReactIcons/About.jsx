@@ -1,7 +1,7 @@
 import React from "react";
 import { FaNpm, FaBookOpen, FaGithub } from "react-icons/fa";
 import sitelogo from "../../../assets/SiteLogo.png";
-import jkreactIconsImage from "../../../assets/JKReactIcons.png"; // replace with actual image
+import jkreactIconsImage from "../../../assets/JKReactICons.png"; 
 
 const About = () => {
     return (
