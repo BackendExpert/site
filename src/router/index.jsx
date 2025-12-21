@@ -12,6 +12,10 @@ import JKReactIcon from '../pages/Products/JKReactIcons/JKReactIcon'
 import Learning from '../pages/Platforms/LearningHub/Learning'
 
 import JKCss from '../pages/Npms/JKCss'
+import CoconutDB from '../pages/Npms/Coconutdb'
+import ReactJKCSSNPM from '../pages/Npms/ReactJKCSSNPM'
+import MySqlEasy from '../pages/Npms/MySqlEasy'
+import SourceMERN from '../pages/Npms/SourceMERN'
 
 
 function App() {
@@ -31,7 +35,11 @@ function App() {
 
                     <Route path='learning-hub' element={<Learning /> } />
                     <Route path='npms/jkcss' element={<JKCss /> } />
-                    
+                    <Route path='npms/coconutdb' element={<CoconutDB /> } />
+                    <Route path='npms/reactjkcss' element={<ReactJKCSSNPM /> } />
+                    <Route path='npms/mysqleasy' element={<MySqlEasy /> } />
+                    <Route path='npms/source-mern' element={<SourceMERN /> } />
+
                 </Route>
             </Routes>
         </BrowserRouter>

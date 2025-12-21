@@ -28,6 +28,66 @@ const npms = [
         href: "/npms/coconutdb",
         comingSoon: false,
     },
+    {
+        id: "reactjkcss",
+        name: "ReactJKCSS",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A React-based UI component framework built on top of JKCSS for dynamic, scalable, and modern front-end development.",
+        href: "/npms/reactjkcss",
+        comingSoon: false,
+    },
+    {
+        id: "mysqleasy",
+        name: "JKMySQL Easy",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A Node.js backend support npm package that simplifies MySQL operations without writing SQL queries.",
+        href: "/npms/mysqleasy",
+        comingSoon: false,
+    },
+    {
+        id: "source-mern",
+        name: "Secure-MERN",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A lightweight yet powerful npm package that adds enterprise-grade security to MERN stack applications.",
+        href: "/npms/source-mern",
+        comingSoon: false,
+    },
+    {
+        id: "source-mern",
+        name: "Secure-MERN",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A lightweight yet powerful npm package that adds enterprise-grade security to MERN stack applications.",
+        href: "/npms/source-mern",
+        comingSoon: true,
+    },
+    {
+        id: "source-mern",
+        name: "Secure-MERN",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A lightweight yet powerful npm package that adds enterprise-grade security to MERN stack applications.",
+        href: "/npms/source-mern",
+        comingSoon: true,
+    },
+    {
+        id: "source-mern",
+        name: "Secure-MERN",
+        icon: SiNpm,
+        accent: "from-rose-500 to-red-600",
+        description:
+            "A lightweight yet powerful npm package that adds enterprise-grade security to MERN stack applications.",
+        href: "/npms/source-mern",
+        comingSoon: true,
+    },
 ];
 
 
