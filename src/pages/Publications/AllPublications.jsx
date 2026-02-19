@@ -7,9 +7,6 @@ import {
     GraduationCap,
     Database,
 } from "lucide-react";
-import SNGAPI from '../../assets/pdfs/Designing_Secure_National_Government_API_Infrastructure_SNGAPI_Jehan_Weerasuriya_2026.pdf'
-import SkillMissMatch from '../../assets/pdfs/Exam_Oriented_Education_and_Graduate_Skill_Mismatch_in_Sri_Lanka.pdf'
-import SNGAPIPPresntation from '../../assets/pdfs/SNGAPI_support_presentation.pdf'
 
 const publications = [
     {
