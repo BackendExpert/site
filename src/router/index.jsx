@@ -18,6 +18,7 @@ import MySqlEasy from '../pages/Npms/MySqlEasy'
 import SourceMERN from '../pages/Npms/SourceMERN'
 import FoodAPI from '../pages/APIs/FoodAPI/FoodAPI'
 import LearningAPI from '../pages/APIs/LearningHub/LearningAPI'
+import Publication from '../pages/Publications/Publication'
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
 
                     <Route path='api/foodapi' element={<FoodAPI /> } />
                     <Route path='api/learningapi' element={<LearningAPI /> } />
+
+                    <Route path='/publications' element={<Publication /> } />
 
                 </Route>
             </Routes>

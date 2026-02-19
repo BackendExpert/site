@@ -16,6 +16,11 @@ const navmenu = [
     },
     {
         id: 4,
+        name: 'Publications',
+        link: '/publications',
+    },
+    {
+        id: 5,
         name: 'Contact Us',
         link: '/contactus',
     },
