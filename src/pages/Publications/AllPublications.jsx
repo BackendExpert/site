@@ -7,6 +7,9 @@ import {
     GraduationCap,
     Database,
 } from "lucide-react";
+import SNGAPI from '../../assets/pdfs/Designing_Secure_National_Government_API_Infrastructure_SNGAPI_Jehan_Weerasuriya_2026.pdf'
+import SkillMissMatch from '../../assets/pdfs/Exam_Oriented_Education_and_Graduate_Skill_Mismatch_in_Sri_Lanka.pdf'
+import SNGAPIPPresntation from '../../assets/pdfs/SNGAPI_support_presentation.pdf'
 
 const publications = [
     {
@@ -15,7 +18,7 @@ const publications = [
         type: "Research",
         icon: ShieldCheck,
         category: "Digital Public Infrastructure",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/Designing_Secure_National_Government_API_Infrastructure_SNGAPI_Jehan_Weerasuriya_2026.pdf'
     },
     {
         title:
@@ -23,7 +26,7 @@ const publications = [
         type: "Presentation (Pre-Experimental)",
         icon: Globe,
         category: "Governance & Architecture",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/SNGAPI_support_presentation.pdf'
 
     },
     {
@@ -32,7 +35,7 @@ const publications = [
         type: "Conference Paper",
         icon: FileText,
         category: "Public Policy",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/MANAGING_VEHICLE_POPULATION_SATURATION_RISK_IN_SRI_LANKA.pdf'
 
     },
     {
@@ -40,7 +43,7 @@ const publications = [
         type: "Research",
         icon: GraduationCap,
         category: "Education Policy",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/Exam_Oriented_Education_and_Graduate_Skill_Mismatch_in_Sri_Lanka.pdf'
     },
     {
         title:
@@ -48,7 +51,7 @@ const publications = [
         type: "Technical Report",
         icon: ShieldCheck,
         category: "Cybersecurity",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/Prototype_Implementation_and_Validation_of_a_Hybrid_Authorization_Model_for_Mitigating_Administrative_Misuse_Using_Password.pdf'
 
     },
     {
@@ -57,7 +60,7 @@ const publications = [
         type: "Preprint",
         icon: ShieldCheck,
         category: "Cybersecurity",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/A_Hybrid_Authorization_Model_for_Mitigating_Administrative_Misuse_Using_Password_update_RG.pdf'
 
     },
     {
@@ -66,7 +69,7 @@ const publications = [
         type: "Conference Paper",
         icon: Database,
         category: "Backend Security",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/IEEE_reseach_confrace_new.pdf'
 
     },
     {
@@ -75,25 +78,7 @@ const publications = [
         type: "Article / Preprint",
         icon: Database,
         category: "Enterprise Systems",
-        link: "/publications/sngapi-technical-repoart"
-
-    },
-    {
-        title:
-            "A Policy Proposal for Implementing an Online Government Job Application System in Sri Lanka",
-        type: "Preprint",
-        icon: Globe,
-        category: "E-Government",
-        link: "/publications/sngapi-technical-repoart"
-
-    },
-    {
-        title:
-            "A Policy Proposal for Updating the ICT Syllabus in Sri Lanka",
-        type: "Preprint",
-        icon: GraduationCap,
-        category: "ICT Education Reform",
-        link: "/publications/sngapi-technical-repoart"
+        link: '/pdfs/research_article_SFBF.pdf'
 
     },
 ];

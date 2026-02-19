@@ -19,7 +19,6 @@ import SourceMERN from '../pages/Npms/SourceMERN'
 import FoodAPI from '../pages/APIs/FoodAPI/FoodAPI'
 import LearningAPI from '../pages/APIs/LearningHub/LearningAPI'
 import Publication from '../pages/Publications/Publication'
-import SNGAPI from '../pages/PublicationItems/SNGAPI'
 
 
 function App() {
@@ -48,7 +47,6 @@ function App() {
                     <Route path='api/learningapi' element={<LearningAPI /> } />
 
                     <Route path='/publications' element={<Publication /> } />
-                    <Route path='/publications/sngapi-technical-repoart' element={<SNGAPI /> } />
 
                 </Route>
             </Routes>
