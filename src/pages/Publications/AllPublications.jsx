@@ -15,6 +15,7 @@ const publications = [
         type: "Research",
         icon: ShieldCheck,
         category: "Digital Public Infrastructure",
+        link: "/publications/sngapi-technical-repoart"
     },
     {
         title:
@@ -22,6 +23,8 @@ const publications = [
         type: "Presentation (Pre-Experimental)",
         icon: Globe,
         category: "Governance & Architecture",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -29,12 +32,15 @@ const publications = [
         type: "Conference Paper",
         icon: FileText,
         category: "Public Policy",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title: "Exam-Oriented Education and Graduate Skill Mismatch in Sri Lanka",
         type: "Research",
         icon: GraduationCap,
         category: "Education Policy",
+        link: "/publications/sngapi-technical-repoart"
     },
     {
         title:
@@ -42,6 +48,8 @@ const publications = [
         type: "Technical Report",
         icon: ShieldCheck,
         category: "Cybersecurity",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -49,6 +57,8 @@ const publications = [
         type: "Preprint",
         icon: ShieldCheck,
         category: "Cybersecurity",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -56,6 +66,8 @@ const publications = [
         type: "Conference Paper",
         icon: Database,
         category: "Backend Security",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -63,6 +75,8 @@ const publications = [
         type: "Article / Preprint",
         icon: Database,
         category: "Enterprise Systems",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -70,6 +84,8 @@ const publications = [
         type: "Preprint",
         icon: Globe,
         category: "E-Government",
+        link: "/publications/sngapi-technical-repoart"
+
     },
     {
         title:
@@ -77,6 +93,8 @@ const publications = [
         type: "Preprint",
         icon: GraduationCap,
         category: "ICT Education Reform",
+        link: "/publications/sngapi-technical-repoart"
+
     },
 ];
 
@@ -137,9 +155,11 @@ const AllPublications = () => {
                                         {pub.category}
                                     </span>
 
-                                    <button className="text-sm px-4 py-2 rounded-lg border border-slate-700 text-cyan-400 hover:bg-cyan-500 hover:text-black transition-all duration-300">
-                                        View
-                                    </button>
+                                    <a href={pub.link} target="_blank">
+                                        <button className="text-sm px-4 py-2 rounded-lg border border-slate-700 text-cyan-400 hover:bg-cyan-500 hover:text-black transition-all duration-300">
+                                            View
+                                        </button>
+                                    </a>
                                 </div>
 
                                 {/* Glow Effect */}
