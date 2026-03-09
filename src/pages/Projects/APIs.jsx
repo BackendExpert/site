@@ -2,7 +2,7 @@ import React from "react";
 import { HiOutlineLockClosed } from "react-icons/hi";
 
 import { FaCloud, FaDatabase } from "react-icons/fa";
-import { Database, Globe } from "lucide-react";
+import { CloudFog, Database, Globe } from "lucide-react";
 const apis = [
     {
         id: "jkrecipeapi",
@@ -25,7 +25,17 @@ const apis = [
         comingSoon: false,
     },
     {
-        id: "learninghub-api-1",
+        id: "racd-api",
+        name: "RACD API",
+        subtitle: "by BlackAlphaLabs",
+        description: " Regional Administrative Citizen Data API (Prototype Implementation)",
+        icon: CloudFog,
+        accent: "from-blue-400 to-blue-600",
+        href: "/api/racd-api",
+        comingSoon: false,
+    },
+    {
+        id: "new-api",
         name: "LearningHUB API",
         subtitle: "by BlackAlphaLabs",
         description: "Modern high-performance API for educational applications, delivering course, content, and user resources.",

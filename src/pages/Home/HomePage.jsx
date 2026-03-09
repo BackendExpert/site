@@ -5,6 +5,7 @@ import WhyBlackAlphaLabs from './WhyBlackAlphaLabs'
 import EngineeringPhilosophy from './EngineeringPhilosophy'
 import FounderStatement from './FounderStatement'
 import FounderLeadership from './FounderLeadership'
+import HotProjects from './HotProjects'
 
 const HomePage = () => {
     return (
@@ -17,6 +18,9 @@ const HomePage = () => {
             </div>
             <div className="">
                 <WhyBlackAlphaLabs />
+            </div>
+            <div className="">
+                <HotProjects />
             </div>
             <div className="">
                 <EngineeringPhilosophy />

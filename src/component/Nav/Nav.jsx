@@ -38,6 +38,13 @@ const Nav = () => {
                         >
                             BlackAlphaLabs
                         </span>
+                        <span
+                            className="block md:hidden text-lg font-semibold tracking-wide
+                            bg-gradient-to-r from-gray-900 to-gray-600
+                            bg-clip-text text-transparent"
+                        >
+                            BAL
+                        </span>
                     </a>
 
                     {/* DESKTOP MENU */}

@@ -10,7 +10,7 @@ const principles = [
 
 const EngineeringPhilosophy = () => {
     return (
-        <section className="py-24 bg-white">
+        <section className="py-24 bg-gray-100">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
                     Engineering Philosophy
