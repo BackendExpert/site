@@ -1,26 +1,22 @@
 import React from 'react'
 import Hero from './Hero'
-import HomeEco from './HomeEco'
-import WhyBAL from './WhyBAL'
-import Stats from './Stats'
+import Npm from './Npm'
+import VsCode from './VsCode'
 
-const HomePage = () => {
+const DevTools = () => {
     return (
         <div>
             <div className="">
                 <Hero />
             </div>
             <div className="">
-                <Stats />
+                <Npm />
             </div>
             <div className="">
-                <HomeEco />
-            </div>
-            <div className="">
-                <WhyBAL />
+                <VsCode />
             </div>
         </div>
     )
 }
 
-export default HomePage
+export default DevTools

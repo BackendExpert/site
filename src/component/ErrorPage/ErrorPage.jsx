@@ -1,23 +1,46 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import HeroHome from "../../assets/HeroHome.jpg";
 
 const ErrorPage = () => {
     const navigate = useNavigate();
 
+    const goHome = () => {
+        navigate("/");
+    };
+
     return (
-        <section className="-mt-4 min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white px-6 text-center">
-            <h1 className="text-[10rem] font-extrabold drop-shadow-xl">404</h1>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Page Not Found</h2>
-            <p className="text-lg md:text-xl max-w-xl mb-8 opacity-90">
-                Oops! The page you're looking for doesn’t exist or has been moved.
-            </p>
-            <button
-                onClick={() => navigate('/')}
-                className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition duration-300 shadow-lg"
-            >
-                Go Home
-            </button>
-        </section>
+        <div
+            className="h-screen w-full bg-cover bg-center bg-no-repeat flex justify-center items-center relative"
+            style={{ backgroundImage: `url(${HeroHome})` }}
+        >
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black/60"></div>
+
+            {/* Glassmorphic Card */}
+            <div className="relative z-10 backdrop-blur-xl bg-black/30 border border-white/10 shadow-2xl rounded-2xl px-10 py-12 max-w-md text-center">
+
+                <h1 className="text-5xl font-bold text-white mb-4 tracking-wide">
+                    404
+                </h1>
+
+                <h2 className="text-xl text-gray-200 mb-3">
+                    Page Not Found
+                </h2>
+
+                <p className="text-gray-400 mb-8">
+                    The page you’re trying to access doesn’t exist or has been moved.
+                </p>
+
+                <button
+                    onClick={goHome}
+                    className="px-8 py-3 text-white font-medium rounded-lg border border-white/20 
+                    bg-white/10 hover:bg-white/20 transition-all backdrop-blur-md"
+                >
+                    Go Back Home
+                </button>
+            </div>
+        </div>
     );
 };
 

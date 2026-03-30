@@ -1,83 +1,102 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
-import sitelogo from '../../assets/SiteLogo.png';
+import React from 'react'
+import DefultButton from '../../component/buttons/DefultButton'
+import SecButton from '../../component/buttons/SecButton'
+import HeroHome from '../../assets/HeroHome.jpg'
+import { GoDotFill } from "react-icons/go";
+import SiteLogoBlue from '../../assets/SiteLogoBlue.png'
+
 
 const Hero = () => {
     return (
-        <section className="relative min-h-screen flex items-center justify-center px-6 md:px-12 bg-gradient-to-b from-[#f8fafc] to-white overflow-hidden">
+        <div className='xl:py-48 md:pt-40 py-24 bg-[#050505] min-h-screen text-white px-4 xl:px-40'>
+            <div className="xl:flex hidden flex-col xl:flex-row justify-between items-start xl:items-center">
+                <div className="w-full xl:w-1/2">
+                    <div className="text-xs inline-block bg-[#ffffff10] backdrop-blur-md  px-5 py-2 rounded-lg text-white">
+                        <div className="flex">
+                            <span className='mt-[0.2rem]'>
+                                <GoDotFill className='fill-[#00E0FE]' />
+                            </span>
+                            <span className='ml-2 uppercase tracking-[0.1rem] text-[#00E0FE]'>system v4 0.2 stable</span>
+                        </div>
+                    </div>
+                    <h1 className='text-5xl sm:text-6xl xl:text-7xl leading-tight mt-2'>
+                        <p className='py-1'>Building the </p>
+                        <p className='py-1'><span style={{ fontStyle: 'italic', color: '#00E0FE' }}>Future</span> of </p>
+                        <p className='py-1'>Software </p>
+                        <p className='py-1'>Innovations </p>
+                    </h1>
 
-            {/* Soft background shapes */}
-            <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-indigo-100 blur-3xl opacity-60" />
-            <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-sky-100 blur-3xl opacity-60" />
+                    <div className="pt-8 text-[#929090] text-sm sm:text-base xl:text-base">
+                        <p>
+                            BlackAlphaLabs is a Software Innovation Company focused exclusively on its own ecosystem: South Asian 1st CSS Framework, NoSQL Document-Oriented Database, Research Grade Backend Security Framework, modern APIs, NPM packages, and VS Code extensions.
+                        </p>
 
-            {/* Content */}
-            <div className="relative z-10 max-w-5xl text-center flex flex-col items-center space-y-8 py-24">
+                        <p className="pt-4">
+                            Every project is independently designed, architected, and maintained with a long-term vision for performance, developer experience, and scalability. We do not engage in client services or outsourcing.
+                        </p>
+                    </div>
 
-                {/* Logo */}
-                <img
-                    src={sitelogo}
-                    alt="BlackAlphaLabs Logo"
-                    className="w-24 md:w-28 object-contain"
-                />
-
-                {/* Heading */}
-                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
-                    Building the Future of <br />
-                    <span className="bg-gradient-to-r from-indigo-500 to-sky-500 bg-clip-text text-transparent">
-                        Software Innovation & Developer Tools
-                    </span>
-                </h1>
-
-                {/* Description */}
-                <p className="text-lg md:text-xl text-gray-600 max-w-3xl leading-relaxed">
-                    <strong className="text-gray-900">BlackAlphaLabs</strong> is a
-                    <span className="font-medium text-gray-800"> Software Innovation Company</span>
-                    &nbsp;focused exclusively on its own ecosystem:
-                    <span className="font-medium text-gray-800"> JKCSS</span>,
-                    <span className="font-medium text-gray-800"> CoconutDB</span>,
-                    <span className="font-medium text-gray-800"> CoconutServeJS</span>,
-                    modern APIs, NPM packages, and VS Code extensions.
-                    <br /><br />
-                    Every project is independently designed, architected, and maintained
-                    with a long-term vision for performance, developer experience, and scalability.
-                    We do not engage in client services or outsourcing.
-                </p>
-
-                {/* Buttons */}
-                <div className="flex flex-wrap justify-center gap-5 pt-6">
-                    <a
-                        href="/projects"
-                        className="inline-flex items-center gap-2 px-8 py-3 rounded-full
-                        bg-gray-900 text-white font-semibold
-                        hover:bg-gray-800 transition"
-                    >
-                        Explore Ecosystem <ArrowRight size={18} />
-                    </a>
-
-                    <a
-                        href="/aboutus"
-                        className="inline-flex items-center gap-2 px-8 py-3 rounded-full
-                        border border-gray-300 text-gray-700 font-semibold
-                        hover:border-gray-400 hover:text-gray-900 transition"
-                    >
-                        Learn More
-                    </a>
+                    <div className="flex flex-col sm:flex-row pt-8 xl:pt-16">
+                        <div className="pr-0 sm:pr-4 pb-4 sm:pb-0">
+                            <a href="/eco-system">
+                                <DefultButton label='Explore Ecosystem' />
+                            </a>
+                        </div>
+                        <div className="pl-0 sm:pl-4">
+                            <a href="/about">
+                                <SecButton label='Raad About Us' />
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                {/* Sub brands */}
-                <div className="pt-10 text-sm text-gray-500">
-                    Focused ecosystem powering&nbsp;
-                    <span className="font-medium text-gray-700">
-                        JKCSS · CoconutDB · CoconutServeJS · APIs · NPMs · VS Code Extensions
-                    </span>
-                    <br />
-                    <span className="text-gray-400">
-                        Only internally developed products. No client services or outsourcing.
-                    </span>
+                <div className="w-full xl:w-1/2 mt-8 xl:mt-0 flex flex-col items-center text-center">
+                    <img src={SiteLogoBlue} alt="Site Logo" className="rounded-xl mb-4" />
+                    <h1 className="uppercase tracking-[0.5rem] text-white">BlackAlphaLabs</h1>
                 </div>
             </div>
-        </section>
-    );
-};
 
-export default Hero;
+            <div className="xl:hidden flex flex-col items-center text-center px-4">
+                <div className="w-full flex flex-col items-center text-center transform transition-transform duration-500 hover:scale-105">
+                    <img
+                        src={SiteLogoBlue}
+                        alt="Site Logo"
+                        className="rounded-xl mb-4"
+                    />
+                    <h1 className="uppercase tracking-[0.5rem] text-white text-lg sm:text-xl xl:text-2xl">
+                        BlackAlphaLabs
+                    </h1>
+                </div>
+
+
+                <div className="text-center mt-4 px-2">
+                    <h1 className="text-2xl sm:text-3xl font-semibold leading-snug">
+                        Building the <span style={{ fontStyle: 'italic', color: '#00E0FE' }}>Future</span> of Software Innovation & Developer Tools
+                    </h1>
+                </div>
+
+
+                <div className="pt-6 text-[#929090] text-sm sm:text-base xl:text-base px-2 space-y-4">
+                    <p>
+                        BlackAlphaLabs is a Software Innovation Company focused exclusively on its own ecosystem: JKCSS, CoconutDB, CoconutServeJS, modern APIs, NPM packages, and VS Code extensions.
+                    </p>
+                    <p>
+                        Every project is independently designed, architected, and maintained with a long-term vision for performance, developer experience, and scalability. We do not engage in client services or outsourcing.
+                    </p>
+                </div>
+
+
+                <div className="flex flex-col sm:flex-row justify-center mt-8 gap-4 w-full px-4">
+                    <div className="flex-1">
+                        <DefultButton label="Get Started" />
+                    </div>
+                    <div className="flex-1">
+                        <SecButton label="Learn More" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Hero
